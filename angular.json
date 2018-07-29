@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "geoff-site-app"
+  "defaultProject": "geoff-site-app",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

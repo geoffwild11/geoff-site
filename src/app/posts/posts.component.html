@@ -1,0 +1,9 @@
+<div *ngFor="let post of posts">
+  <h2>{{ post.title }}</h2>
+  <p>
+    {{ post.id }} / {{post.date}}
+  </p>
+  <p>
+    <textarea [(ngModel)]="post.content" rows="8" cols="70"></textarea>
+  </p>
+</div>
